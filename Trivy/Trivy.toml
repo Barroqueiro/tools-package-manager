@@ -1,5 +1,6 @@
 default = "v0.34.0"
 base = "v0.33.0"
+config_base = "Trivy_base.yaml"
 config_file = "Trivy.yaml"
 
 versions = ["v0.34.0", "v0.33.0"]
