@@ -1,0 +1,21 @@
+default = "v0.34.0"
+base = "v0.33.0"
+config_file = "Trivy.yaml"
+
+versions = ["v0.34.0", "v0.33.0"]
+
+["v0.33.0"]
+
+install_type = "file"
+install = "bash ./install.sh"
+install_diff = ""
+config_diff = ""
+test = "Trivy --version"
+
+["v0.34.0"]
+
+install_type = "file"
+install = "bash ./install.sh"
+install_diff = ""
+config_diff = "3d2\n< exit-code: 1\n"
+test = "Trivy --version"

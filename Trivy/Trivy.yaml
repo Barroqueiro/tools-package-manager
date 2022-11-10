@@ -1,0 +1,4 @@
+format: sarif
+dependency-tree: true
+exit-code: 1
+output: Trivy.sarif
