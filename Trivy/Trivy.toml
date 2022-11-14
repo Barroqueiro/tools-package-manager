@@ -15,7 +15,7 @@ config_diff = ""
 test = "Trivy --version"
 
 [versions.options]
-image = "image {image} -o {output} -f sarif
+image = "image {image} -o {output} -f sarif"
 
 [[versions]]
 
@@ -27,4 +27,4 @@ config_diff = "3d2\n< exit-code: 1\n"
 test = "Trivy --version"
 
 [versions.options]
-image = "image {image} -o {output} -f sarif
+image = "image {image} -o {output} -f sarif"
