@@ -5,20 +5,26 @@ install_base = "install_base.sh"
 config_file = "Trivy.yaml"
 install_file = "install.sh"
 
-versions = ["v0.34.0", "v0.33.0"]
+[[versions]]
 
-["v0.33.0"]
-
+version = "v0.33.0"
 install_type = "file"
-install = "bash ./install.sh"
+install = "./install.sh"
 install_diff = ""
 config_diff = ""
 test = "Trivy --version"
 
-["v0.34.0"]
+[versions.options]
+image = "image {image} -o {output} -f sarif
 
+[[versions]]
+
+version = "v0.34.0"
 install_type = "file"
 install = "bash ./install.sh"
 install_diff = ""
 config_diff = "3d2\n< exit-code: 1\n"
 test = "Trivy --version"
+
+[versions.options]
+image = "image {image} -o {output} -f sarif
