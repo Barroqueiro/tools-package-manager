@@ -21,7 +21,7 @@ options = ["image"]
 install_type = "file"
 install = "./install.sh"
 install_diff = ""
-test = "Trivy --version"
+test = "trivy --version"
 
 [options]
 

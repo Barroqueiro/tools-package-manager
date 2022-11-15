@@ -1,11 +1,11 @@
-default = "v8.13.0"
-base = "v8.13.0"
+default = "v8.8.7"
+base = "v8.8.7"
 install_base = "install_base.sh"
 install_file = "install.sh"
 
 [versions]
 
-[versions."v8.13.0"]
+[versions."v8.8.7"]
 
 config = "1"
 options = ["detect"]
@@ -16,7 +16,7 @@ options = ["detect"]
 install_type = "file"
 install = "./install.sh"
 install_diff = ""
-test = "Gitleaks version"
+test = "gitleaks version"
 
 [options]
 
