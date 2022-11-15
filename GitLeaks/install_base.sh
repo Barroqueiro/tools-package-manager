@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git clone https://github.com/zricethezav/gitleaks.git
 cd gitleaks
 make build
