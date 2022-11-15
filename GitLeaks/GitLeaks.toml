@@ -1,5 +1,5 @@
 default = "v8.15.0"
-base = "v8.15.0
+base = "v8.15.0"
 install_base = "install_base.sh"
 install_file = "install.sh"
 
@@ -20,4 +20,4 @@ test = "Gitleaks version"
 
 [options]
 
-detect = "detect --source {source} -r {output} -f sarif"
+detect = "git config --global --add safe.directory {source}; detect --source {source} -r {output} -f sarif"

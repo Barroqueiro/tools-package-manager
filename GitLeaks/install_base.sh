@@ -4,4 +4,3 @@ make build
 mv gitleaks /usr/local/bin
 cd ..
 rm -rf gitleaks
-
