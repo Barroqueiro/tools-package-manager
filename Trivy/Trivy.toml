@@ -25,4 +25,4 @@ test = "Trivy --version"
 
 [options]
 
-image = "image {0} -o {output} -f sarif"
+image = "{tool} image {0} -o {output} -f sarif"

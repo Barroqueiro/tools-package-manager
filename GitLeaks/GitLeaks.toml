@@ -20,4 +20,4 @@ test = "Gitleaks version"
 
 [options]
 
-detect = "git config --global --add safe.directory {source}; detect --source {source} -r {output} -f sarif"
+detect = "git config --global --add safe.directory {source}; {tool} detect --source {source} -r {output} -f sarif"
