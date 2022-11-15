@@ -1,11 +1,11 @@
-default = "v8.8.7"
-base = "v8.8.7"
+default = "v8.13.0"
+base = "v8.13.0"
 install_base = "install_base.sh"
 install_file = "install.sh"
 
 [versions]
 
-[versions."v8.8.7"]
+[versions."v8.13.0"]
 
 config = "1"
 options = ["detect"]
